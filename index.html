@@ -6,18 +6,23 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Adam Zdzechchyts cv</title>
     <link rel="stylesheet" href="style.css" />
+    <base target="_blank" />
   </head>
   <body>
-    <div class="section">
-      <h1>Curriculum vitae</h1>
-      <img src="photo.png" alt="photo of me" />
+    <header><h1>Curriculum vitae</h1></header>
+    <main>
+      <figure>
+        <img src="photo.png" alt="photo of me" height="128" width="128" />
+      </figure>
       <h3 class="subtitle">Name and surname</h3>
       <p class="info">Adam Zdzeshchyts</p>
       <h3 class="subtitle">Contact information</h3>
-      <ul class="info">
-        <li>Telegram, Viber: +375292626018</li>
-        <li>E-mail: adamchic2@tut.by</li>
-      </ul>
+      <div>
+        <ul class="info">
+          <li>Telegram, Viber: +375292626018</li>
+          <li>E-mail: adamchic2@tut.by</li>
+        </ul>
+      </div>
       <h3 class="subtitle">About me</h3>
       <p class="info">
         I've explored different IT jobs, and i've decided to develop skills in
@@ -26,12 +31,12 @@
         experienced with HTML and CSS.
       </p>
       <h3 class="subtitle">Skills</h3>
-      <p class="info">
-        I learned different programming languages such as C++, Java, C# as part
-        of programming courses at the Belarusian State University. For C#
-        project i have used git system, WinForms, created activity and use case
-        UML diagrams.
-      </p>
+      <p class="info">I'm a bit experienced with:</p>
+      <ul class="info">
+        <li>C++</li>
+        <li>Java</li>
+        <li>C#</li>
+      </ul>
       <h3 class="subtitle">Code examples</h3>
       <p class="info">
         <a href="https://github.com/AdamTasten/Currency_Exchange">C# project</a>
@@ -51,6 +56,20 @@
         knowledge is on the level A2+, according to test provided by EPAM
         training center my english knowledge is on the level B1.
       </p>
-    </div>
+    </main>
+    <footer>
+      <a href="https://github.com/AdamTasten">My Github profile</a>
+      <p class="info">2021</p>
+      <a href="https://rs.school/js/"
+        ><img
+          src="rs_school_js.svg"
+          alt="rs school js logo"
+          height="25"
+          width="75"
+      /></a>
+      <a href="https://www.youtube.com/"
+        ><img src="youtube.svg" alt="youtube logo" height="25" width="75"
+      /></a>
+    </footer>
   </body>
 </html>
